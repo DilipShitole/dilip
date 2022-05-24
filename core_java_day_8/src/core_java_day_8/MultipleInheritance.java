@@ -8,7 +8,7 @@ interface Student1 {
 interface Student2 {
 	void display();
 
-	void display1();
+	
 }
 
 class Student3 implements Student2, Student1 {
@@ -21,9 +21,7 @@ class Student3 implements Student2, Student1 {
 
 	}
 
-	@Override
-	public void display1() {
-		System.out.print("display1 method");
+	
 
 	}
 }
